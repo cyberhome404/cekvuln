@@ -212,7 +212,10 @@ def cari(inurl , site , maxc):
     return finallist
 
 if __name__ == "__main__":
-clear
+def keluar():
+	print "\033[1;91m[!] Exit"
+	os.sys.exit()
+	
 	print ('''\033[33;1m
          _,met$$$$$gg.           
       ,g$$$$$$$$$$$$$$$P.        
