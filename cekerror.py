@@ -106,7 +106,7 @@ def cek():
 	print (W+43*"-")
 	hasil = []
 	for url in finallist:
-		print (Y+"[!] "+R+Sedang Melakukan Scan..\r"),;sys.stdout.flush()
+		print (Y+"[!] "+R+"Sedang melakukan scan..\r"),;sys.stdout.flush()
 		EXT = "'"
 		host = url+EXT
 		try:
