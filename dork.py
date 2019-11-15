@@ -1,10 +1,10 @@
 import urllib2 , cookielib , random , re , sys , socket , time , httplib , ssl
 
        #########################################
-       # Author : Debby anggraini ( @ciku370 ) #
-       # Team   : Blackhole Security           #
-       # Date   : 2 - 5 - 2018                 #
-       # Github : https://github.com/ciku370   #
+       # Author : Mr Bell                      #
+       # Team   : 22XploiterCrew               #
+       # Blog   : https://hackid.ga            #
+       # IG     : @the_hackid                  #
        #########################################
 
 if sys.platform == "linux2" or sys.platform == "linux":
@@ -106,15 +106,15 @@ def cek():
 	print (W+43*"-")
 	hasil = []
 	for url in finallist:
-		print (R+"[!] "+W+"Scanning Web Vuln..\r"),;sys.stdout.flush()
+		print (Y+"[!] "+R+Sedang Melakukan Scan..\r"),;sys.stdout.flush()
 		EXT = "'"
 		host = url+EXT
 		try:
 			source = urllib2.urlopen(host).read()
 			for type,eMSG in errors.items():
 				if re.search(eMSG, source):
-					print (B+"\r[+]"+G+" Vuln  "+W+": "+host.replace("'",""))
-					print (B+"[*]"+R+" Error "+W+": "+glp+type+W)
+					print (Y+"\r[+]"+G+" Vuln  "+W+": "+host.replace("'",""))
+					print (Y+"[*]"+R+" Error "+W+": "+glp+type+W)
 					hasil.append(host.replace("'",""))
 				else:
 					pass
@@ -126,21 +126,21 @@ def cek():
 		pass
 	else:
 		print (W+43*"-")
-		print (R+"[!] "+W+"Saving vuln web.."),;sys.stdout.flush()
+		print (Y+"[!] "+R+"Menyimpan web vuln.."),;sys.stdout.flush()
 		for x in hasil:
 			vuln.write(x+"\n")
 		vuln.close()
 
-		print (B+"\r[+] "+G+"successfully saved in "+W+filename)
+		print (R+"\r[+] "+W+"Berhasil Menyimpan "+W+filename)
 
-        print (B+"\r[*] "+G+"Total web vuln "+W+": %s "%(len(hasil)))
+        print (Y+"\r[*] "+R+"Total web vuln "+W+": %s "%(len(hasil)))
 	print (W+43*'-'+'\n')
 
 
 # Searching web --
 def cari(inurl , site , maxc):
 
-    print (R+"[!] "+W+"Please Wait.."+glp),;sys.stdout.flush()
+    print (Y+"[!] "+R+"Tunggu sebentar.."+glp),;sys.stdout.flush()
 
     urls = []
     page = 0
@@ -204,23 +204,44 @@ def cari(inurl , site , maxc):
         pass
 
     print ("\n"+W+43*"-")
-    print (B+"[+] "+G+"Urls (sorted) "+W+": %s Url" % (len(finallist)))
+    print (Y+"[+] "+R+"Urls (sorted) "+W+": %s Url" % (len(finallist)))
     if site == '':
-	    print (B+"[+] "+G+"Site          "+W+": random")
+	    print (Y+"[+] "+R+"Site          "+W+": random")
     else:
-	    print (B+"[+] "+G+"Site          "+W+": %s"%(site))
+	    print (Y+"[+] "+R+"Site          "+W+": %s"%(site))
     return finallist
 
 if __name__ == "__main__":
-	print ("      "+Y+"  _____       ___           _   ")
-	print (R+" |'+'|"+Y+" |  |  |___  |    \ ___ ___| |_ ")
-	print (R+" (o o)"+Y+" |    -| . | |  |  | . |  _| '_|")
-	print (R+"  (_) "+Y+" |__|__|___| |____/|___|_| |_,_|"+W+" (c)")
+e():
+	print (''' \033[96m	
+         _,met$$$$$gg.           
+      ,g$$$$$$$$$$$$$$$P.        
+    ,g$$P""       """Y$$.".      
+   ,$$P'              `$$$.      
+  ',$$P       ,ggs.     `$$b:    
+  `d$$'     ,$P"'   .    $$$     
+   $$P      d$'     ,    $$P     
+   $$:      $$.   -    ,d$$'     
+   $$\;      Y$b._   _,d$P'      
+   Y$$.    `.`"Y$$$$P"'          
+   `$$b      "-.__
+    `Y$$
+     `Y$$.
+       `$$b.
+         `Y$$b.
+            `"Y$b._
+                `""""
+|Version   : V.1(Beta)        |
+|Team      : 22XploiterCrew   |
+|Author    : Mr.Bell          |
+|My Blog   : https://hackid.ga|
+#TOOLS AUTO DORKING FRESH SQLI# \n ''')
+	
 	print (W+43*"-")
 
-	inurl = raw_input(B+"[?]"+G+" Inurl    "+W+": ")
-	site  = raw_input(B+"[?]"+G+" Site     "+W+": ")
-	maxc  = raw_input(B+"[?]"+G+" Max Page "+W+": ")
+	inurl = raw_input(Y+"[?]"+R+" Inurl    "+Y+": ")
+	site  = raw_input(Y+"[?]"+R+" Site     "+Y+": ")
+	maxc  = raw_input(Y+"[?]"+R+" Max Page "+Y+": ")
 
 	print (43*"-")
 	cari(inurl , site , maxc)
