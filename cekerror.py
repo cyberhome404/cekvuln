@@ -213,7 +213,7 @@ def cari(inurl , site , maxc):
 
 if __name__ == "__main__":
 
-	os.system('cls')
+	
 	
 	print ('''\033[33;1m
          _,met$$$$$gg.           
