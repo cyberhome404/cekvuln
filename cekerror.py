@@ -213,7 +213,7 @@ def cari(inurl , site , maxc):
 
 if __name__ == "__main__":
 
-	print (''' \033[96m	
+	print ('''\033[31m
          _,met$$$$$gg.           
       ,g$$$$$$$$$$$$$$$P.        
     ,g$$P""       """Y$$.".      
