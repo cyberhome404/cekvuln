@@ -2861,22 +2861,14 @@ user is not using shrink to fit then we expand the header.
 
 <!-- menu navigasi header start -->
 <ul>
-<li><a href='#'>Menu</a></li>
-<li><a href='#'>Menu</a></li>
-<li><a href='#'>Menu</a></li>
-<li><a href='#'>Menu</a>
+<li><a href='https://www.sebariklan8.com/search/label/Informasi'>INFORMASI</a></li>
+<li><a href='https://www.sebariklan8.com/search/label/Berita'>BERITA</a></li>
+<li><a href='#'>TUTORIAL</a>
 <ul>
-<li><a href='#'>SubMenu1</a></li>
-<li><a href='#'>SubMenu2</a></li>
-<li><a href='#'>SubMenu3</a></li>
-</ul>
-</li>
-<li><a href='#'>Menu</a>
-<ul>
-<li><a href='#'>SubMenu1</a></li>
-<li><a href='#'>SubMenu2</a></li>
-<li><a href='#'>SubMenu3</a></li>
-<li><a href='#'>SubMenu4</a></li>
+<li><a href='https://www.sebariklan8.com/search/label/Termux'>TERMUX</a></li>
+<li><a href='https://www.sebariklan8.com/search/label/Deface'>DEFACE</a></li>
+<li><a href='https://www.sebariklan8.com/search/label/Tester'>BUG HUNTER</a></li>
+<li><a href='https://www.sebariklan8.com/search/label/Web'>WEB DEVELOPER</a></li>
 </ul>
 </li>
 </ul>
