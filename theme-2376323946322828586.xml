@@ -2863,24 +2863,14 @@ user is not using shrink to fit then we expand the header.
 </div>
 
 <!-- menu navigasi header start -->
-<ul>
-<li><a href='https://www.sebariklan8.com/search/label/Informasi'>INFORMASI</a></li>
-<li><a href='https://www.sebariklan8.com/search/label/Berita'>BERITA</a></li>
-  <li><a href='https://www.sebariklan8.com/search/label/Aplikasi'>Aplikasi</a></li>
+﻿<ul>
+<li><a href='https://dragonroarr.blogspot.com/search/label/Informasi'>INFORMASI</a></li>
 <li><a href='#'>TUTORIAL</a>
 <ul>
-<li><a href='https://www.sebariklan8.com/search/label/Termux'>TERMUX</a></li>
-<li><a href='https://www.sebariklan8.com/search/label/Deface'>DEFACE</a></li>
-<li><a href='https://www.sebariklan8.com/search/label/Tester'>BUG BOUNTY</a></li>
-<li><a href='https://www.sebariklan8.com/search/label/Web'>WEB DEVELOPER</a></li>
-</ul>
-</li>
-<li><a href='#'>TKJ</a>
-<ul>
-<li><a href='https://www.sebariklan8.com/search/label/Debian'>DEBIAN</a></li>
-<li><a href='https://www.sebariklan8.com/search/label/Mikrotik'>MIKROTIK</a></li>
-<li><a href='https://www.sebariklan8.com/search/label/Cisco'>CISCO</a></li>
-<li><a href='https://www.sebariklan8.com/search/label/Ap'>ACCESS POINT</a></li>
+<li><a href='https://dragonroarr.blogspot.com/search/label/Termux?m=1'>TERMUX</a></li>
+<li><a href='https://dragonroarr.blogspot.com/search/label/Deface?m=1'>DEFACE</a></li>
+<li><a href='https://dragonroarr.blogspot.com/search/label/Pentester?m=1'>PENTESTER</a></li>
+<li><a href='https://dragonroarr.blogspot.com/search/label/Programmer'>PROGRAMMER</a></li>
 </ul>
 </li>
 </ul>
@@ -4528,11 +4518,12 @@ bloggerjs.src = &#39;//&#39; + disqus_shortname + &#39;.disqus.com/blogger_index
 
 <!-- menu navigasi footer start -->
 <ul>
-<li><a href='https://www.sebariklan8.com/p/about.html'>About</a></li>
-<li><a href='https://www.sebariklan8.com/p/blog-page.html'>Contact</a></li>
-<li><a href='https://www.sebariklan8.com/p/privacy-policy-for-tech-at-sebariklan8.html'>Privacy Policy</a></li>
-<li><a href='https://www.sebariklan8.com/p/disclaimer.html'>Disclaimer</a></li>
+<li><a href='https://dragonroarr.blogspot.com/p/welcome-to-dragonroar-your-number-one.html'>About</a></li>
+<li><a href='https://dragonroarr.blogspot.com/p/contact-u.html'>Contact</a></li>
+<li><a href='https://dragonroarr.blogspot.com/p/privac.html'>Privacy Policy</a></li>
+<li><a href='https://dragonroarr.blogspot.com/p/disclai.html'>Disclaimer</a></li>
 </ul>
+
 <!-- menu navigasi footer end -->
 
 </nav>
